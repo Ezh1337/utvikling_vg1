@@ -1,0 +1,27 @@
+ul{
+    margin: 2rem;
+    list-style: none;
+}
+li{
+    margin: 2rem;
+    
+}
+#end{
+    width: 20%;
+    font-size: large;
+}
+p{
+    margin-left: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: antiquewhite;
+}
+button{
+    background-color: rgb(203, 239, 23);
+    text-decoration-color: aliceblue;
+    margin-left: 2px;
+}
+#tekstfelt{
+    margin-bottom: 2rem;
+}
