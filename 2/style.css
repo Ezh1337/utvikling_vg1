@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(237, 216, 184);
+
+}
+h2{
+    font-style: italic;
+    margin-left: 2rem;
+}
+button{
+    background-color: antiquewhite;
+    border-radius: 2px;
+    margin-left: 5rem;
+}
+#allFilms{
+    margin-bottom: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}

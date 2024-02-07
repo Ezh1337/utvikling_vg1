@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notater</title>
+</head>
+<body>
+    <section>
+    <h1>Valgsetninger</h1>
+    <article>
+    <p>  Her skal vi se på noe eksampler på valgsetning. 
+    I forløpig, hva er det egentilg? Skal vi se på  et eksampel fra virkligheten:
+    "Du, som en person, lager en frokost til seg selv, så tenker du hva skal du ha å drikke. De fleste har 2 valg:
+    1. Jeg skal drikke te.
+    2. Jeg skal ta kaffe isteden.
+    Så hvis du velger te, da setter du vannkoker på. Hvis det blir kaffe, da setter du kaffetraktor på. " Ja, det er så enkelt.
+    </p>
+    <br>
+    <p id="spor">Hva ønsker jeg i dag?</p>
+    <p>  <label>Te</label>
+    <input type="radio" name="radioValg">
+    <label>Kaffe</label>
+    <input type="radio" name="radioValg">
+    </p>
+    <button onclick="visValg(document.getElementsByName('radioValg'))">Vis valg</button>
+    <p id="resultat"></p>
+    </article>
+        <h1>Globale og lokale variabler</h1>
+    <article>
+        <p id="global">Globale variabler er de, som er tilgjenlig gjennom hele funksjonen. Det er bestemet utenfor ett eller annet funksjon. DE KAN bli reacha gjennom hele koden.</p>
+        
+        <p id="lokal">Lokale variabler er bare bestemt i ett bestemt funksjon og KAN IKKE bli plukket til annet.</p>
+    </article>
+        <h1>
+            Variabeltyper
+        </h1>
+        <article>
+        <p id ="varTyp">Vi har mange forskjellige typer av variabeler inn på JS koden. De er :</p>
+        <ul>
+            <li>
+                1. Nummer <br> Skriv ett tall<br>
+             <input type="number">
+            </li>
+            
+            <li>
+                2. Tekst <br>  Skriv tekst <br>
+                <input type="text">
+            </li>
+            <li>
+               3. Float (tall med desimall)
+            </li>
+            <li>
+               4. Int er veldig stor tall
+             </li>
+          
+        </ul>
+        </article>
+        <h1>Caste en variabel</h1>
+        <article>
+            <p>
+                Å kaste en variabel betyr egentlig a legge de sammen.
+                Hvis vi skriver leggSammen{
+                    let tall1 = "2";
+                    let tall2 = 3;
+                    let tall3 = tall1 + tall2;
+                    og skriver det ut da for vi sikkert 23, hvilken er helt feil.
+                }
+                For å gjøre det riktig, da måtte i siste del vi skrive 
+                let tall3= Number(tall1) + tall2, da får vi 5 til slutt
+            </p>
+        </article>
+        <h1>Funksjon</h1>
+        <article>
+            <p id="funk">En JavaScript-funksjon er en kodeblokk designet for å utføre en bestemt oppgave.
+
+            En JavaScript-funksjon utføres når "noe" kaller den.
+            </p>
+            <p>
+                Ett eksampel på funksjon kan bli å se forskjellen mellom tallene
+            </p>
+            <br>
+            Skriv ett tall: 
+            <input type="number" id="funkEks">
+            <button onclick="funEks()">Se forskjell</button>
+        </article>
+        <h1>Oppgave 2</h1>
+        <article>
+            <button onclick = "hei()">Hei</button>
+            <button onclick = "hadet()">Ha det bra </button>
+        </article>
+        <h1>Oppgave 3</h1>
+     <article> 
+        Skriv din først tall:  <input type="number" id="tall1"><br>
+       Skriv din andre tall: <input type="number" id="tall2"><br>
+        <button onclick="sammelign()">Hvilken er størst</button>
+        <br>
+        <p id="resu"></p>
+    </article>
+    <br>
+    <h1>Oppgave 4</h1>
+    <article>
+        <p>Spørsmål 1:
+            <br>
+            Er jorda rundt?
+        </p>
+        <br>
+        <button onclick = "rik()">Sann</button>
+        <button onclick = "gal()">Usann </button>
+        <br>
+        <p>Spørsmål 2:
+            <br>
+            Ham, Sem og Jafat var Noahs tre sønner?
+        </p>
+        <br> 
+        <button onclick = "rik()">Usann </button>
+        <button onclick = "gal()">Sann</button>
+       
+        <br>
+        <p>Spørsmål 3:
+            <br>
+            Er llama søte?
+        </p>
+        <br>
+        <button onclick = "rik()">Sann</button>
+        <button onclick = "gal()">Usann </button>
+        <br>
+        <p id = "end"></p>
+    </article>
+    <br>
+    <h1>Oppgave 5</h1>
+    <article> 
+        <input type="text" id="tekstfelt" readonly><br>
+        <button id = "1" onclick =  "ett(1)">1</button>
+        <button id = "2" onclick =  "ett(2)">2</button>
+        <button id = "3" onclick =  "ett(3)">3</button>
+        <button id = "4" onclick =  "ett(4)">4</button>
+        <button id = "5" onclick =  "ett(5)">5</button>
+        <button id = "6" onclick =  "ett(6)">6</button>
+        <button id = "7" onclick =  "ett(7)">7</button>
+        <button id = "8" onclick =  "ett(8)">8</button>
+        <button id = "9" onclick =  "ett(9)">9</button>
+        <button id = "10" onclick =  "ett(0)">0</button>
+        <button id = "11" onclick =  "to()">Clear</button>
+
+        <br>
+        
+    </article>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

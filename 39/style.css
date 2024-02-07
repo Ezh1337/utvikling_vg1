@@ -1,0 +1,42 @@
+body{
+    background-color: #e8e7e3;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    float: center;
+    align-content: center;
+
+}
+figure{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+img{
+    align-items: center;
+    float: center;
+    display: flex;
+    justify-content: center     ;
+    margin-left: 200px;
+}
+
+p{
+   
+  
+    
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-decoration-color: aquamarine;
+    margin: auto ;
+    justify-content: center;
+    text-align: center  ;
+  
+    text-indent: 50px;
+}
+a{
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    float: center;
+}

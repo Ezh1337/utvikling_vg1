@@ -1,0 +1,42 @@
+#a{
+    width: 80%;
+    margin: auto;
+    padding-left: 69px;
+    padding-top: 25px;
+    padding-bottom: 50  px;
+    padding-right: 83px;
+    display: flex;
+    justify-content: center;
+   
+}
+#b{
+    width: 80%;
+    margin: auto;
+    padding-left: 69px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    padding-right: 83px;
+    display: flex;
+    justify-content: center;
+    
+}
+#c{
+    width: 60%;
+    margin: auto;
+    padding-left: 69px;
+    padding-top: 17px;
+    padding-bottom: 70px;
+    padding-right: 83px;
+    display: flex;
+    text-align: left;
+}
+#d{
+    width: 60%;
+    margin: auto;
+    padding-left: 69px;
+    padding-top: 17px;
+    padding-bottom: 70px;
+    padding-right: 83px;
+    display: flex;
+    text-align: left;  
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(244, 208, 162);
+    margin: 23px;
+    justify-content: center;
+}
+button{
+    background-color: aqua;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 57px ;
+}
+section{
+    padding: 2px;
+    margin: 5px;
+    border-radius: 1px;
+    border-color: black;
+    border : solid;
+    width: 25%;
+}
+p{
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 5px;
+}

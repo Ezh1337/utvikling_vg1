@@ -1,0 +1,10 @@
+article.fixed {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    width: 300px;
+    border: 1px solid #000000;
+    z-index: 1;
+    text-align: center;
+    visibility:hidden;
+  }

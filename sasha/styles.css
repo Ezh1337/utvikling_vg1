@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    margin-right: 23px;
+}
+nav {
+    text-align: center;
+    background-color: #84c0f2; 
+    border-color: white;
+    display: block;
+    border-radius: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-height: 30px;
+    height: 30px;   
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #84c0f2;
+    color: #080707;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 32rem;
+}
+#opis{
+    margin-left: 25rem;
+}
+#glavfot{
+     
+  background-color: #84c0f2;
+  color: #080707;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+    
+}
+#history-header{
+    margin-left: 23rem;
+    margin-top: 0.25rem;
+    margin-bottom: 3rem;
+}
+h3{
+    font-family: fantasy;
+    width: 80%;
+}
+#guidetop{
+    margin-left: 23rem;
+    margin-top: 0.15rem;
+}
+ol{
+    margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#slagord{
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#his-top{
+    font-family: 'Courier New', Courier, monospace;
+}
+#his-p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#first{
+    width: 80%;
+    margin-left: 8rem;
+}

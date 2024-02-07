@@ -1,0 +1,128 @@
+nav {
+    text-align: center;
+    background-color:#096d89;
+    border-color: white;
+    display: block;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-height: 30px;
+    height: 50px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: left;  
+    margin-bottom: 15px;
+    gap: 17px;
+}
+
+
+#navbox{
+    border: black solid 2px;
+    border-radius: 4px;
+    gap: 5px;
+    padding: 7px;
+    font-size:small;
+    margin-left: 6px;
+}
+
+#leftbox{
+    border: solid black 2px;
+    background-color: rgb(252, 222, 200);
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   align-items: flex-start;
+   overflow: auto;
+   flex-direction: column;
+    
+   
+    
+}
+#textsec{
+    margin-left: 3px;
+}
+#leftup{
+    border: solid black 1px; 
+    float: left;
+    width: 49%;
+    flex-wrap: wrap;
+
+}
+#leftdown{
+    border: solid black 1px;
+    width: 49%;
+    float: left;
+    flex-wrap: wrap;
+}
+#rightup{
+    border: solid black 1px; 
+    float: left;
+    width: 49%;
+    flex-wrap: wrap;
+}
+#rightdown{
+    border: solid black 1px;  
+    width: 49%;
+    float: left;
+    flex-wrap: wrap;
+}
+
+#leftuppic{
+    float: left;
+    margin-right: 1rem;
+}
+#leftdownpic{
+    float: left;
+    margin-right: 1rem;
+}
+#rightuppic{
+    float: left;
+    margin-right: 1rem;
+}
+#rightdownpic{
+    float: left;
+    margin-right: 1rem;
+
+}
+#pictext{
+    font-size: larger;
+    font-weight: 600;
+}
+#form{
+    border: solid black 0.5px;
+    border-style: double;
+}
+table{
+    border: double black 0.5px;
+}
+td{
+    border: double black 0.5px;  
+}
+h5{
+    font-style: oblique;
+    justify-self: center;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color:#096d89;
+    margin-top: 7px;
+    position: relative;
+    border-radius: 2px;
+}   
+#fotbox{
+    border: black solid 2px;
+    border-radius: 4px;
+    gap: 5px;
+    padding: 7px;
+    font-size:small;
+    margin-left: 6px;
+}
+li{
+    margin-left: 2px;
+}
+h2{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}

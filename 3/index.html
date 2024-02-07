@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bildegalleri</title>
+</head>
+<body>
+   
+    <article  id="photo" >
+        <img src="imgs/bilde.jpg" onmouseover="pekerOn(this)" >
+    </article>
+    <br>
+    <article>
+        <p id = "text"> A cabin on a dock by a lake with mountains in the background.</p>
+    </article>
+    <button onclick = "back()" id = "prvBtn">Tilbake</button>
+    <button onclick="next()" id = "nxtBtn">Frem</button>
+    <button onclick="autoChange()">Automode</button>
+    <br>
+    <article id ="mouse"  onmouseleave="PekerOff()"></article>
+
+   <script src="script.js"></script>
+</body>
+</html>

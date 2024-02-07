@@ -1,0 +1,27 @@
+h2{
+    width: 80%;
+    margin: auto;
+    padding-left: 69px;
+    padding-top: 67px;
+    padding-bottom: 70px;
+    padding-right: 83px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    width: 80%;
+    margin: auto;
+    padding-left: 29px;
+    padding-top: 67px;
+    padding-bottom: 95px;
+    padding-right: 83px;
+    display: flex;
+    justify-content: center;
+}
