@@ -1,0 +1,27 @@
+#Lydstart{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    padding: 5px;
+}
+#forward{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 2px;
+    padding: 5px; 
+}
+.container {
+    position: relative;
+  }
+  
+  #rotatingImage {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s ease;
+  }
+  
+  .rotated {
+    transform: rotate(360deg);
+  }
