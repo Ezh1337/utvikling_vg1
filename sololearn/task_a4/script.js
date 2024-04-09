@@ -18,5 +18,20 @@ function regn(){
         return
     }
 }  
+var swap = function(array, firstIndex, secondIndex) {
+    let temp = array[firstIndex]
+	array[firstIndex] = array[secondIndex];
+	array[secondIndex] = temp;
+};
+
+var testArray = [7, 9, 4];
+swap(testArray, 1, 0);
+
+
+
+
+console.log(testArray);
+
+//Program.assertEqual(testArray, [9, 7, 4]);
 
 
