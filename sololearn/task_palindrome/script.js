@@ -28,9 +28,11 @@ var isPalindrome = function(str) {
     return isPalindrome(middleCharacters(str));
 };
 
-var checkPalindrome = function(str) {
-    console.log("Is this word a palindrome? " + str);
-    console.log(isPalindrome(str));
+var checkPalindrome = function() {
+    var inputStr = document.getElementById("check").value;
+    console.log("Is this word a palindrome? " + inputStr);
+    console.log(isPalindrome(inputStr));
+    answer.innerHTML = isPalindrome(inputStr);
 };
 
 checkPalindrome("a");
