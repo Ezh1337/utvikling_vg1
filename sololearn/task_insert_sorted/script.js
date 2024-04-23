@@ -1,3 +1,5 @@
+
+//inserting the value at the excat place in the array
 var swap = function(array, firstIndex, secondIndex) {
     var temp = array[firstIndex];
     array[firstIndex] = array[secondIndex];
