@@ -1,0 +1,17 @@
+Adobe After Effects v24.3 Windows 64 render log for project “farm_start auto-save 4.aep”
+
+Rendering started on 01.05.2024 at 14:29:42
+
+  01.05.2024 14:29:42: Starting composition “gaard”.
+
+  Output To: C:\Users\ill0301\OneDrive - Vestfold og Telemark fylkeskommune\Dokumenter\GitHub\utvikling_vg1\barnebok\animasjoner\gaard_eple.mp4    01.05.2024 14:29:45: Finished composition “gaard”.
+
+
+  01.05.2024 14:29:45: Starting composition “gaard”.
+
+  Output To: C:\Users\ill0301\OneDrive - Vestfold og Telemark fylkeskommune\Produksjon og historiefortelling\Barnebok\animasjoner\gaard_eple.mp4    01.05.2024 14:29:48: Finished composition “gaard”.
+
+
+  Total Time Elapsed: 6 Seconds
+Log closed on 01.05.2024 at 14:29:48
+
