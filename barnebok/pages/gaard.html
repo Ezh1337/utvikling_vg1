@@ -4,31 +4,27 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style_aas.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elv</title>
+    <title>Gård</title>
 </head>
 <body>
     <section>
         <div class="wrapper">
             <article>
-                <iframe width="1000" height="600" src="../animasjoner/gaard_start1.mp4">
+                <iframe width="1000" id = "video" height="600" src="../animasjoner/gaard_start1.mp4">
 
     
                  </iframe>
             </article>
-            <article>
+            <article id="btn">
                 
-                <button onclick ="eple()">Gå for eple</button>
-                <button onclick ="pare()">Gå for pære</button>
-                <button onclick ="banan()">Gå for banan</button>
+                <button onclick ="eple()" id = "apple">Gå for eple</button>
+                <button onclick ="pare()"id = "pear">Gå for pære</button>
+                <button onclick ="banan()" id="banana">Gå for banan</button>
+                <button onclick ="tilbake()" id = "hjem" style="visibility: hidden;">Gå hjem</button>
              </article>
              <article>
-                <p>
-                    Benny: “Hei, hva gjør du her for nå?”<br>
-                     
-                  
-                    
-                    Frokke: “Jeg er en frosk og jeg heter Frokke. Jeg bor i nærheten av strømmende vann<br> og hopper 
-                    sånn at jeg kommer ikke inn i vannet. Prøv du også! ”
+                <p id = "textbox">
+                    Hva skal du ha i dag?
                     
                 </p>
              </article>
