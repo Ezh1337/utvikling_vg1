@@ -10,7 +10,7 @@ function eple(){
 }
 function pare(){
     var vid = document.getElementById("video");
-    vid.src = "../animasjoner/gaard_paere.mp4"; 
+    vid.src = "../animasjoner/gaard_pare.mp4"; 
    textbox.innerHTML = "Den her er en pære , den hjelper deg å holde seg frisk. <br> Benny: Takk for det!";
    document.getElementById("apple").style.visibility = "hidden";
    document.getElementById("pear").style.visibility = "hidden";
