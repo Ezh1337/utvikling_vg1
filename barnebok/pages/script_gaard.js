@@ -7,6 +7,8 @@ function eple(){
     document.getElementById("pear").style.visibility = "hidden";
     document.getElementById("banana").style.visibility = "hidden";
     document.getElementById("hjem").style.visibility = "visible";
+    document.getElementById("hjem2").style.visibility = "visible";
+
 }
 function pare(){
     var vid = document.getElementById("video");
@@ -16,6 +18,8 @@ function pare(){
    document.getElementById("pear").style.visibility = "hidden";
    document.getElementById("banana").style.visibility = "hidden";
    document.getElementById("hjem").style.visibility = "visible";
+   document.getElementById("hjem2").style.visibility = "visible";
+
 }
 function banan(){
     var vid = document.getElementById("video");
@@ -25,7 +29,13 @@ function banan(){
    document.getElementById("pear").style.visibility = "hidden";
    document.getElementById("banana").style.visibility = "hidden";
    document.getElementById("hjem").style.visibility = "visible";
+   document.getElementById("hjem2").style.visibility = "visible";
+
 }
 function tilbake() {
+    window.location.href ="gaard.html"
+}
+
+function videre() {
     window.location.href ="siste.html"
 }

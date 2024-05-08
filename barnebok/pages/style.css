@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    float: none;
     flex-direction: column;
 }
 
@@ -39,6 +39,8 @@ iframe {
     height: auto;
     aspect-ratio: 1000 / 600; 
     border: none; 
+    float: none;
+    display: flex;
     
 }
 
