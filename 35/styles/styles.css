@@ -1,13 +1,12 @@
 body{
-    background-color: rgb(177, 184, 210);
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+ background-image: url("/35/bilder/back.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
+
  section{
     width: 50%;
     justify-content: center;
